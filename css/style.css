@@ -11,5 +11,27 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  color: #d9ecef;
+  color: #f18613;
   font-weight: 300; }
+
+.container {
+  display: grid;
+  grid-template-rows: 5vh min-content 10vh;
+  grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
+
+.header {
+  background-color: yellow;
+  grid-column: full-start / full-end;
+  grid-row: 1; }
+
+.profile {
+  background-color: blue;
+  height: 80vh;
+  grid-column: center-start / center-end; }
+
+.skills {
+  background-color: orange; }
+
+.footer {
+  background-color: red;
+  grid-column: full-start / full-end; }

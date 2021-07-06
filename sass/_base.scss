@@ -26,6 +26,17 @@ html {
 
 body {
   font-family: $font-primary;
-  color: $color-primary;
+  color: $color-secondary;
   font-weight: 300;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 5vh min-content 10vh;
+  grid-template-columns:
+    [full-start] 1fr [center-start] repeat(
+      8,
+      [col-start] minmax(min-content, 14rem) [col-end]
+    )
+    [center-end] 1fr [full-end];
 }
