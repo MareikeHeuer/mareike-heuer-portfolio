@@ -1,5 +1,15 @@
 .header {
-  background-color: yellow;
+  background-color: $color-primary;
   grid-column: full-start / full-end;
   grid-row: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+
+  &__item {
+    text-decoration: none;
+    color: $color-secondary;
+    font-size: 1.5rem;
+  }
 }
