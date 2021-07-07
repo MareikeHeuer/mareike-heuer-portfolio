@@ -39,7 +39,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 2rem; }
+  margin-top: 1rem;
+  margin-right: 2rem; }
   .header__item {
     text-decoration: none;
     color: #f18613;
@@ -111,7 +112,7 @@ body {
     grid-column: 1 / -1;
     justify-self: center;
     align-self: end;
-    width: 60%;
+    width: 70%;
     font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 400;
@@ -125,6 +126,7 @@ body {
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.3rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 2.5rem;
     height: 9rem; }
   .card__item--links {
@@ -137,4 +139,5 @@ body {
       background-color: #f18613;
       color: #fff;
       padding: 0.2rem 0.7rem;
-      border-radius: 3rem; }
+      border-radius: 3rem;
+      margin: 1rem; }
