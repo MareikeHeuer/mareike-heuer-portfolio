@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: inherit; }
 
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -17,7 +22,6 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 5vh min-content 10vh;
   grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
 
 .heading-2 {
@@ -67,8 +71,16 @@ body {
   background-color: orange; }
 
 .footer {
-  background-color: red;
-  grid-column: full-start / full-end; }
+  background-color: #d9ecef;
+  grid-column: full-start / full-end;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer__content {
+    font-size: 3.5rem; }
+
+.fab {
+  color: #f18613; }
 
 .cards {
   background: #d9ecef;
@@ -83,7 +95,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border-radius: 3rem;
-  box-shadow: 0 1.5rem 4rem black; }
+  box-shadow: 0 0.2rem 4rem black; }
   .card__img {
     width: 100%;
     grid-column: 1 / -1;
@@ -113,7 +125,8 @@ body {
     font-family: "Roboto Slab", sans-serif;
     font-size: 1.3rem;
     margin-left: 1rem;
-    margin-bottom: 2.5rem; }
+    margin-bottom: 2.5rem;
+    height: 9rem; }
   .card__item--links {
     margin-bottom: 1.2rem;
     grid-column: 1 / -1;

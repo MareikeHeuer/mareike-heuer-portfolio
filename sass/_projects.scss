@@ -14,7 +14,7 @@
   grid-template-columns: repeat(2, 1fr);
 
   border-radius: 3rem;
-  box-shadow: 0 1.5rem 4rem black;
+  box-shadow: 0 0.2rem 4rem black;
 
   &__img {
     width: 100%;
@@ -53,6 +53,7 @@
       font-size: 1.3rem;
       margin-left: 1rem;
       margin-bottom: 2.5rem;
+      height: 9rem;
     }
   }
 

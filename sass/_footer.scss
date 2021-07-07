@@ -1,4 +1,16 @@
 .footer {
-  background-color: red;
+  background-color: $color-primary;
   grid-column: full-start / full-end;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    font-size: 3.5rem;
+  }
+}
+
+.fab {
+  color: $color-secondary;
 }
