@@ -12,12 +12,21 @@ html {
 body {
   font-family: "Lato", sans-serif;
   color: #f18613;
-  font-weight: 300; }
+  font-weight: 300;
+  background-color: #d9ecef; }
 
 .container {
   display: grid;
   grid-template-rows: 5vh min-content 10vh;
   grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
+
+.heading-2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem; }
+
+.paragraph {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.7rem; }
 
 .header {
   background-color: #d9ecef;
@@ -33,9 +42,26 @@ body {
     font-size: 1.5rem; }
 
 .profile {
-  background-color: blue;
+  background-color: #d9ecef;
   height: 80vh;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem; }
+  .profile__image {
+    display: flex;
+    justify-content: center; }
+  .profile__img {
+    width: 15rem;
+    border-radius: 50%;
+    display: block;
+    background-color: #fff; }
+  .profile__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 10rem; }
 
 .skills {
   background-color: orange; }
