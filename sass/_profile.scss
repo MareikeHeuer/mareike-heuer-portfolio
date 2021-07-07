@@ -31,8 +31,12 @@
     align-items: center;
     padding: 2rem 10rem;
   }
-}
 
-.skills {
+  &__links {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+  }
+}
+x .skills {
   background-color: orange;
 }
