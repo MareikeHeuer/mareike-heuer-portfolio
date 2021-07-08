@@ -41,6 +41,9 @@ body {
   align-items: center;
   margin-top: 1rem;
   margin-right: 2rem; }
+  .header a {
+    font-weight: 400;
+    font-size: 1.8rem; }
   .header__item {
     text-decoration: none;
     color: #f18613;
