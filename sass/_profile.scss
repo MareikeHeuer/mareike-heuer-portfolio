@@ -1,12 +1,11 @@
 .profile {
   background-color: $color-primary;
-  height: 80vh;
-  grid-column: center-start / center-end;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem 4rem;
+  margin-top: 10rem;
 
   // display: grid;
   // justify-content: center;
@@ -35,6 +34,8 @@
   &__links {
     margin-top: 2rem;
     font-size: 3.5rem;
+    display: flex;
+    flex-direction: row;
   }
 }
 x .skills {

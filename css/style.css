@@ -40,7 +40,8 @@ body {
   justify-content: flex-end;
   align-items: center;
   margin-top: 1rem;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  margin-bottom: 2rem; }
   .header a {
     font-weight: 400;
     font-size: 1.8rem; }
@@ -49,14 +50,24 @@ body {
     color: #f18613;
     font-size: 1.5rem; }
 
+.profile-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem; }
+  .profile-header a {
+    font-weight: 400;
+    font-size: 1.8rem; }
+
 .profile {
   background-color: #d9ecef;
-  height: 80vh;
-  grid-column: center-start / center-end;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 4rem; }
+  padding: 2rem 4rem;
+  margin-top: 10rem; }
   .profile__image {
     display: flex;
     justify-content: center; }
@@ -72,7 +83,9 @@ body {
     padding: 2rem 10rem; }
   .profile__links {
     margin-top: 2rem;
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: row; }
 
 x .skills {
   background-color: orange; }

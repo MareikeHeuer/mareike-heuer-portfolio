@@ -7,6 +7,7 @@
   align-items: center;
   margin-top: 1rem;
   margin-right: 2rem;
+  margin-bottom: 2rem;
 
   a {
     font-weight: 400;
@@ -17,5 +18,19 @@
     text-decoration: none;
     color: $color-secondary;
     font-size: 1.5rem;
+  }
+}
+
+.profile-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+
+  a {
+    font-weight: 400;
+    font-size: 1.8rem;
   }
 }
