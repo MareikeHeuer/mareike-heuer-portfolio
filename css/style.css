@@ -26,11 +26,16 @@ body {
 
 .heading-2 {
   font-family: "Lato", sans-serif;
-  font-size: 2.5rem; }
+  font-size: 2.2rem;
+  color: #f18613;
+  margin-bottom: 1.5rem;
+  line-height: 2rem; }
 
 .paragraph {
   font-family: "Roboto Slab", sans-serif;
-  font-size: 1.7rem; }
+  font-size: 1.7rem;
+  color: #f18613;
+  line-height: 1.8rem; }
 
 .header {
   background-color: #d9ecef;
@@ -103,7 +108,7 @@ body {
     border-radius: 50%;
     height: 220px;
     width: 220px;
-    box-shadow: 0 0.2rem 4rem black; }
+    margin-bottom: 1rem; }
   .profile__description {
     width: 400px;
     margin-left: 20px;
